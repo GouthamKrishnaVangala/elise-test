@@ -1,0 +1,24 @@
+name: Elise_Test
+
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Setup nodejs
+          uses: actions/checkout@v2
+        - uses: actions/setup-node@v1
+          with:
+            node-version: 16.x
+
+        - name: Install Dependencies
+          run: npm install
+
+        - name: Test
+          run: npm run local
+        - uses: actions/upload-artifact@v1
+          if: {{ always() }}
+          with:
+            name: reports
+            path: testReports
