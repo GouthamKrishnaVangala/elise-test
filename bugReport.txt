@@ -1,0 +1,43 @@
+Bug#1
+
+Summary: "Example files" name in Marketplace --> Create new Version page is not as expected
+
+Steps to Reproduce:
+1. Login to ELISE portal
+2. Navigate to Marketplace --> Create new version page
+3. Verify the spelling of "Example files" field
+
+Actual: Instead of "Example files(elsapp)", it is displayed as "Exmaple files(els)"
+
+Expected: The field name should be displayed as "Example files(elsapp)".
+
+Severity: Low
+
+Priority: High
+
+Bug type: Cosmetic issue
+
+Note: A Screenshot can be added here. But unfortunately, here it is not possible as this is a txt file.
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Summary: "Mark" text in Marketplace --> Create new Version page is not required
+
+Steps to Reproduce:
+1. Login to ELISE portal
+2. Navigate to Marketplace --> Create new version page
+3. Verify the "Mark" text on the Top right of the page
+
+Actual: "Mark" text is displayed
+
+Expected: "Mark" text should not be displayed
+
+Severity: Low
+
+Priority: Medium
+
+Bug type: Cosmetic issue
+
+Note: A Screenshot can be added here. But unfortunately, here it is not possible as this is a txt file.
+
+-----------------------------------------------------------------------------------------------------------------------------------

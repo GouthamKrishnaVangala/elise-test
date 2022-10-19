@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "sourceMap": true,
+    "target": "es6",
+    "module": "commonjs",
+    "strict": true,
+		"rootDir": "test",
+    "removeComments": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "noEmitOnError": true,
+    "types": [
+      "node",
+      "webdriverio/async",
+      "chai",
+      "@wdio/cucumber-framework",
+      "expect-webdriverio"
+    ],
+  },
+  "include": ["./test/functional/**/*"],
+  "exclude": ["node_modules"]
+}
